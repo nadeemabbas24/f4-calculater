@@ -1,0 +1,55 @@
+
+.App {
+ padding:50px;
+ min-height: 100vh;
+ background-color: black;
+ color: white;
+}
+
+
+.App-header {
+font-family: 'Inter';
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;  
+}
+
+p{
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.contianer{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 40px;
+  margin:30px 0;
+}
+input{
+  width: 290px;
+  height: 50px;
+  line-height: 29px;
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: black;
+  color:white;
+  border: 2px solid white;
+  padding-left:15px;
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+button{
+  height: 61px;
+  width: 61px;
+  font-size: 2rem;
+  
+}
