@@ -1,9 +1,11 @@
-
+body{
+  background-color: black;
+  color: white;
+}
 .App {
  padding:50px;
  min-height: 100vh;
- background-color: black;
- color: white;
+ 
 }
 
 
